@@ -1,0 +1,26 @@
+*{
+    margin: 0;
+    padding: 0;
+
+}
+.First-Para{
+    color: rgb(255, 0, 64);
+}
+#First-cont{
+color: rgb(0, 89, 255);
+}
+
+.Completed_Tag{
+    color: rgb(255, 0, 0);
+}
+
+h3,button{
+    color: rgb(0, 0, 0);
+}
+
+.last,h3{
+    color: rgb(187, 9, 9);
+    background-color: aqua;
+    
+}
+

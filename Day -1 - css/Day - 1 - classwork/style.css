@@ -1,0 +1,31 @@
+/* -----universal selector---- */
+
+*{
+    color: black;
+    margin: 0;
+    padding: 0;
+}
+
+
+
+/* -----grouping selector---- */
+
+h1,h2,h3,h4,h5,h6{
+    color: rgb(216, 0, 0);
+} 
+
+
+/* -----id selector--- */ 
+#Main-head{
+    color: rgb(115, 241, 31);
+}
+
+/* -----class selector---- */
+.First-Para{
+    color: blue;
+}
+
+/* ------Element selector----- */
+li{
+    color: rgb(252, 193, 1);
+}
