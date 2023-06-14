@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Selectors</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <!-- ----Descendant selector---- -->
+
+    <div>
+        <div>
+            <h1>Descendant selector affects Descendant child</h1>
+        </div>
+        <h1>Course</h1>
+        <h1>Full</h1>
+        <h1>Stack</h1>
+        <h1>development</h1>
+    </div>
+    <section>
+        <h1>Course</h1>
+        <h1>Full</h1>
+        <h1>Stack</h1>
+        <h1>development</h1>
+    </section>
+    <div>
+        <h1>Course</h1>
+        <h1>Full</h1>
+        <h1>Stack</h1>
+        <h1>development</h1>
+    </div>
+    <section>
+        <h1>Course</h1>
+        <h1>Full</h1>
+        <h1>Stack</h1>
+        <h1>development</h1>
+    </section>
+
+    <hr>
+    <br>
+    <!-- -------child selector----- -->
+
+
+    <div>
+        <div>
+            <h2>child selector affects only child</h>
+
+                <h2>Course</h2>
+                <h2>Full</h2>
+                <h2>Stack</h2>
+                <h2>development</h2>
+        </div>
+        <section>
+            <h2>Course</h2>
+            <h2>Full</h2>
+            <h2>Stack</h2>
+            <h2>development</h2>
+        </section>
+        <div>
+            <h2>Course</h2>
+            <h2>Full</h2>
+            <h2>Stack</h2>
+            <h2>development</h2>
+        </div>
+        <section>
+            <h2>Course</h2>
+            <h2>Full</h2>
+            <h2>Stack</h2>
+            <h2>development</h2>
+        </section>
+    </div>
+    <p>decendant selector, child selector both looks similar DS affects decendant child and CS target only immediate
+        child
+    </p>
+    <br>
+    <hr>
+
+    <!-- ---General sibiling selector------>
+    <div class="First_one">
+        <h3>Course</h3>
+        <h3>Full</h3>
+        <h3>Stack</h3>
+        <h3>development</h3>
+    </div>
+
+
+    <h3>Course</h3>
+    <h3>Full</h3>
+    <h3>Stack</h3>
+    <h3>development</h3>
+
+    <div>
+        <h3>Course</h3>
+        <h3>Full</h3>
+        <h3>Stack</h3>
+        <h3>development</h3>
+    </div>
+
+    <h3>Course</h3>
+    <h3>Full</h3>
+    <h3>Stack</h3>
+    <h3>development</h3>
+
+    <h1>general sibiling target opposite element</h1>
+    <hr>
+    <br>
+    <!-- -----adjacent sibiling selector----- -->
+
+    <div class="First_one">
+        <!-- inside first element will be affects  -->
+        <h4>Course</h4> 
+        <h4>Full</h4>
+        <h4>Stack</h4>
+        <h4>development</h4>
+    </div>
+
+
+    <h4>Course</h4>
+    <h4>Full</h4>
+    <h4>Stack</h4>
+    <h4>development</h4>
+  <!-- inside first element will be affects  -->
+    <div>
+        <h4>Course</h4>
+        <h4>Full</h4>
+        <h4>Stack</h4>
+        <h4>development</h4>
+    </div>
+
+    <h4>Course</h4>
+    <h4>Full</h4>
+    <h4>Stack</h4>
+    <h4>development</h4>
+<h1>Adjacent sibilings selector affects first element of block element</h1>
+
+
+</body>
+
+
+
+</html>
