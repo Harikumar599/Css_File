@@ -1,0 +1,30 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.First_Head {
+    color: brown;
+    background-color: aqua;
+    padding: 20px;
+    margin-left: 90vh;
+    margin-right: 90vh;
+    margin-top: 20px;
+    font-family: 'Poppins', sans-serif;
+font-family: 'Roboto', sans-serif;
+
+    background-image: url("https://www.shutterstock.com/image-photo/old-brick-black-color-wall-260nw-1605128917.jpg");
+
+}
+
+.Second_Head {
+    padding-left: 45%;
+    font-family: 'Poppins', sans-serif;
+font-family: 'Roboto', sans-serif;
+}
+.Third_Head{
+    border-style: solid;
+    border-width: 20px 5px;
+    border-color: brown;
+    
+}
