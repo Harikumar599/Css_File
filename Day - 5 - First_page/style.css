@@ -1,0 +1,123 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    
+}
+#container{
+background-color: #f1f1f1;
+height: 100vh;
+    width: 100%;
+    
+}
+
+.Head_one{
+    color: rgb(58, 122, 218);
+    /* font-family:'Abel', sans-serif; */
+    font-size: 4rem;
+    margin-top: 2px;
+    font-weight: 500rem;
+}
+.Head_two{
+    font-family: 'Abel', sans-serif;
+        font-size: 190%;
+}
+
+
+
+
+.contact-left{
+    padding-left: 15%;
+    padding-top: 15%;
+    margin-top: 15%;
+}
+
+/* -----content right---- */
+
+.border12{
+    border: 1px solid rgb(230, 230, 230);
+    height: 55vh;
+    width: 60vh;
+
+    background-color: white;
+    border-radius: 10px;
+    margin-top: 20%;
+    box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
+}
+
+.btn1,[type=text] {
+    
+    width: 450px;
+    padding: 11px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    box-sizing: border-box;
+    
+  }
+ 
+  
+
+  .btn2,[type=text] {
+    width: 350px;
+    padding: 11px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    box-sizing: border-box;
+    margin-left: 5%;
+  }
+ .btn.btn-primary,[type=text] {
+    width: 350px;
+    padding: 11px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    box-sizing: border-box;
+    margin-left: 5%;
+    margin-top: 5%;
+  }
+  .hr1{
+    margin-left: 5%;
+  }
+  .f_p{
+    margin-left: 30%;
+    text-decoration: none;
+  }
+.btn22{
+    background-color: rgb(19, 156, 30);
+    width: 60%;
+    padding: 11px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    box-sizing: border-box;
+    color: white;
+    font-size: 18px;
+    margin-left: 17%;
+    font-weight: 120%;
+    /* font-family: Verdana, Geneva, Tahoma, sans-serif; */
+}
+.span1{
+    color: black;
+    font-weight: 20%;
+}
+
+.last_line{
+    margin-left: 53%;
+    margin-top: 2%;
+}
+
+
+
+
+
+
+
+
+
+
