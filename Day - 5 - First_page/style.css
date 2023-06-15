@@ -19,7 +19,7 @@ height: 100vh;
     font-weight: 500rem;
 }
 .Head_two{
-    font-family: 'Abel', sans-serif;
+    /* font-family: 'Abel', sans-serif; */
         font-size: 190%;
 }
 
@@ -34,6 +34,9 @@ height: 100vh;
 
 /* -----content right---- */
 
+.border12{
+    margin-left: 17%;
+}
 .border12{
     border: 1px solid rgb(230, 230, 230);
     height: 55vh;
@@ -108,7 +111,7 @@ height: 100vh;
 }
 
 .last_line{
-    margin-left: 53%;
+    margin-left: 61%;
     margin-top: 2%;
 }
 
