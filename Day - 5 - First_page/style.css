@@ -1,32 +1,34 @@
-*{
+* {
     margin: 0px;
     padding: 0px;
     box-sizing: border-box;
-    
-}
-#container{
-background-color: #f1f1f1;
-height: 100vh;
-    width: 100%;
-    
+
 }
 
-.Head_one{
+#container {
+    background-color: #f1f1f1;
+    height: 100vh;
+    width: 100%;
+
+}
+
+.Head_one {
     color: rgb(58, 122, 218);
     /* font-family:'Abel', sans-serif; */
     font-size: 4rem;
     margin-top: 2px;
     font-weight: 500rem;
 }
-.Head_two{
+
+.Head_two {
     /* font-family: 'Abel', sans-serif; */
-        font-size: 190%;
+    font-size: 190%;
 }
 
 
 
 
-.contact-left{
+.contact-left {
     padding-left: 15%;
     padding-top: 15%;
     margin-top: 15%;
@@ -34,10 +36,14 @@ height: 100vh;
 
 /* -----content right---- */
 
-.border12{
+.contact-right{
+    margin-top: 3%;
+}
+.border12 {
     margin-left: 17%;
 }
-.border12{
+
+.border12 {
     border: 1px solid rgb(230, 230, 230);
     height: 55vh;
     width: 60vh;
@@ -48,21 +54,9 @@ height: 100vh;
     box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
 }
 
-.btn1,[type=text] {
-    
-    width: 450px;
-    padding: 11px 20px;
-    margin: 8px 0;
-    display: inline-block;
-    border: 1px solid #ccc;
-    border-radius: 10px;
-    box-sizing: border-box;
-    
-  }
- 
-  
+.btn1,
+[type=text] {
 
-  .btn2,[type=text] {
     width: 350px;
     padding: 11px 20px;
     margin: 8px 0;
@@ -71,8 +65,25 @@ height: 100vh;
     border-radius: 10px;
     box-sizing: border-box;
     margin-left: 5%;
-  }
- .btn.btn-primary,[type=text] {
+
+}
+
+
+
+.btn2,
+[type=text] {
+    width: 350px;
+    padding: 11px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    box-sizing: border-box;
+    margin-left: 5%;
+}
+
+.btn.btn-primary,
+[type=text] {
     width: 350px;
     padding: 11px 20px;
     margin: 8px 0;
@@ -82,15 +93,18 @@ height: 100vh;
     box-sizing: border-box;
     margin-left: 5%;
     margin-top: 5%;
-  }
-  .hr1{
+}
+
+.hr1 {
     margin-left: 5%;
-  }
-  .f_p{
+}
+
+.f_p {
     margin-left: 30%;
     text-decoration: none;
-  }
-.btn22{
+}
+
+.btn22 {
     background-color: rgb(19, 156, 30);
     width: 60%;
     padding: 11px 20px;
@@ -105,22 +119,13 @@ height: 100vh;
     font-weight: 120%;
     /* font-family: Verdana, Geneva, Tahoma, sans-serif; */
 }
-.span1{
+
+.span1 {
     color: black;
     font-weight: 20%;
 }
 
-.last_line{
+.last_line {
     margin-left: 61%;
     margin-top: 2%;
 }
-
-
-
-
-
-
-
-
-
-
