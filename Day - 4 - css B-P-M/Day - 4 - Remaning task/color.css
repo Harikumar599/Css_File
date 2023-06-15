@@ -1,0 +1,47 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+.background {
+    width: 100%;
+    height: 100vh;
+    background-image: url("image/vegetables-set-left-black-slate.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    color: rgb(255, 255, 255);
+    align-content: center;
+}
+
+.content {
+    padding: 10%;
+}
+
+.btn.btn-dark {
+    color: white;
+    background-color: rgb(0, 0, 0);
+    border-radius: 5px solid white;
+}
+
+/* ----T2---- */
+.background1 {
+    height: 100vh;
+    width: 100%;
+
+    background-image: url("image/smart-indian-engineer-man-wearing-safety-helmet-doing-stock-tick-check-cardboard-stock-product-management-factory-warehouse-background.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.content1{
+  color: rgb(0, 0, 0);
+  margin-left: 63%;
+ 
+}
+
+.h55{
+    color: rgb(0, 0, 0);
+}
