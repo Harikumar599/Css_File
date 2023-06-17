@@ -1,0 +1,118 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    
+   
+}
+#container {
+    background-color: #a5b5ff6c;
+    height: 100vh;
+    width: 100%;
+    position: fixed;
+
+}
+#container h1{
+    color: rgb(255, 10, 83);
+    margin: 0 46%;
+    margin-bottom: 4%;
+    padding-top: 4%;
+    font-size: 20px;
+    font-weight: 900;
+}
+.fa-solid.fa-user{
+    padding-left: 4%;
+}
+.fa-solid.fa-lock{
+    padding-left: 4%;
+}
+.back{
+    margin-left: 36%;
+    margin-top: 2%;
+   height: 50%;
+   width: 25%;
+   background-color: rgb(255, 255, 255);
+   padding: 1px;
+}
+.back h3{
+background-color: rgb(252, 21, 98);
+padding: 20px;
+font-size: 20px;
+color: white;
+}
+
+.text{
+    padding: 3%;
+}
+.input1{
+    padding: 10px;
+
+}
+
+.box1{
+    padding: 3px;
+    width: 80%;
+    margin-left: 10%;
+    margin-top: 3%;
+border-radius: 5px;
+border-color: rgb(252, 21, 98);
+}
+.box2{
+    padding: 3px;
+    width: 80%;
+    margin-left: 10%;
+    margin-top: 3%;
+    border-radius: 5px;
+    border-color:rgb(252, 21, 98);   
+}
+.box3{
+    padding: 2px; 
+    margin-left: 15%;
+    margin-top: 3%; 
+    width: 70%; 
+    border-radius: 5px;
+background-color:rgb(252, 21, 98);
+border-color:rgb(252, 21, 98);
+color: white;
+}
+.box4{
+    padding: 2px; 
+    margin-left: 15%;
+    margin-top: 8%; 
+    width: 25%; 
+    border-radius: 5px;
+background-color: rgb(252, 21, 98);
+border-color: rgb(252, 21, 98);
+color: white;
+position: relative
+;}
+
+.last{
+position: absolute;
+    margin-right: 30%;
+    font-size: 90%;
+    margin-left: 10%;
+    margin-bottom: 5%;
+}
+
+
+.fa-brands.fa-facebook{
+    margin-top: 5%;
+    margin-left: 43%;
+    font-size: 200%;
+}
+
+.fa-brands.fa-twitter{
+    font-size: 200%;
+    margin-left: 2%;
+}
+.fa-brands.fa-instagram{
+    font-size: 200%;
+    margin-left: 2%;
+
+}
+.box1:hover{
+    background-color: rgb(255, 210, 220);
+}
+.box2:hover{
+    background-color: rgb(255, 210, 220);
+}
